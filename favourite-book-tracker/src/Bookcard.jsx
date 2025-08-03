@@ -1,7 +1,7 @@
-function Bookcard(){
+function Bookcard(props){
     return(<div className="book">
-        <p>Name: Harry Potter and the deathly hallows</p>
-        <p>Author: J.K Rowling</p>
+        <p>Name: {props.name}</p>
+        <p>Author: {props.author}</p>
     </div>);
 }
 
