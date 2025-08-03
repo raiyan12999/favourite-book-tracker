@@ -1,6 +1,6 @@
 function Bookcard(props){
 
-    const handleFavourite = () => console.log("Handle Favourtie is clicked");
+    const handleFavourite = () => console.log("Name of the clicked book is: " + props.name);
 
     return(<div className="book">
         <p>Name: {props.name}</p>
